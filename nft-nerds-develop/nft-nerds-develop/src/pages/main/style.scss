@@ -1,0 +1,129 @@
+.main-page {
+	.main-page-container {
+		margin-bottom: 96px;
+		.main-page-grid {
+			box-sizing: border-box;
+			display: flex;
+			flex-flow: row wrap;
+			margin-top: -48px;
+			width: calc(100% + 48px);
+			margin-left: -48px;
+			
+			padding: 16px;
+
+			> .MuiGrid-item {
+				padding-left: 48px;
+				padding-top: 48px;
+			}
+			.grid-1 {
+				margin: 0 0 48px;
+				text-align: center;
+				h3 {
+					margin: 0px 0px 16px;
+					font-family: Montserrat, sans-serif;
+					font-size: 3rem;
+					line-height: 1.167;
+					font-weight: 600;
+				}
+				.Typewriter {
+					display: inline-block;
+				}
+				h6 {
+					display: inline-block;
+					margin: 0px;
+					font-size: 24px;
+					font-weight: 400;
+					font-family: Montserrat, sans-serif;
+					line-height: 1.75;
+					color: rgb(134, 134, 160);
+				}
+			}
+
+			.grid-2 {
+				h4 {
+					margin: 0px 0px 32px;
+					font-size: 30px;
+					font-weight: 400;
+					font-family: Montserrat, sans-serif;
+					line-height: 1.235;
+				}
+				p {
+					margin: 0px;
+					font-size: 20px;
+					font-weight: 400;
+					line-height: 27px;
+					font-family: Montserrat, sans-serif;
+					color: rgb(134, 134, 160);
+				}
+				.MuiButton-root {
+					margin: 24px 0px 0px;
+					color: rgb(137, 101, 211);
+					padding: 6.4px 24px;
+					font-weight: 600;
+					font-size: 16px;
+					border: 1px solid;
+					border-radius: 4px;
+				}
+			}
+
+			.grid-3, .grid-4 {
+				margin: 0px 0px 64px;
+				.MuiButton-root {
+					box-shadow: rgb(0 0 0 / 20%) 0px 6px 6px -3px, rgb(0 0 0 / 14%) 0px 10px 14px 1px, rgb(0 0 0 / 12%) 0px 4px 18px 3px;
+				}
+			}
+			.grid-5 {
+				a {
+					margin: 0px;
+					color: rgb(137, 101, 211);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+
+@media (min-width: 0px) {
+	.main-page {
+		.main-page-container {
+			margin-top: 32px;
+			.main-page-grid {
+				text-align: center;
+				.grid-2 {
+					p {
+						&:last-child {
+							margin-top: 0px;
+						}
+					}
+				}
+			}
+		}  
+	}	
+}
+
+@media (min-width: 900px) {
+	.main-page {
+		.main-page-container {
+			.main-page-grid {
+				.grid-2 {
+					p {
+						&:last-child {
+							margin-top: 16px;
+						}
+					}
+				}
+			}
+		}  
+	}	
+}
+
+@media (min-width: 900px) {
+	.main-page {
+		.main-page-container {
+			.main-page-grid {
+				text-align: left;
+			}
+		}
+	}
+}

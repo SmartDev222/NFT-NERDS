@@ -1,0 +1,71 @@
+@import '../../theme/global.scss';
+.css-164r41r {
+    margin-top: 8px;
+}
+.css-13izq8f {
+    padding: 4px;
+    border-radius: 8px;
+    background-color: $cardBackgroundColor;
+    box-shadow: $cardBoxShadow;
+
+}
+.css-13izq8f:hover{
+    background-color: $cardHoverColor;
+}
+.css-7fn19k {
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+.css-mifb2i {
+    display: flex;
+    margin-top: 16px;
+}
+.css-1n2mv2k {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-whbpg8 {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    padding-left: 8px;
+    color: white;
+    font-weight: 400;
+}
+.css-whbpg8:hover{
+    color:white;
+}
+.css-u6v8er {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.css-1f7zjgf {
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.css-clrxkr {
+    margin: 0px;
+    line-height: 27px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(134, 134, 160);
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,0 +1,86 @@
+.rarity-chart {
+    position: relative;
+    margin-bottom: 100px;
+    .data-controls {
+        position: absolute;
+        top: 9px;
+        right: 24px;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        .span-control {
+            display: inline-flex;
+            flex-direction: column;
+            position: relative;
+            min-width: 0px;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            vertical-align: top;
+            width: 100%;
+            margin-right: 30px;
+            // &:last-child {
+            //     margin-right: 0px;
+            // }
+            .MuiBox-root {
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                span {
+                    margin: 0px 8px 0px 0px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    font-family: Montserrat, sans-serif;
+                    color: rgb(134, 134, 160);
+                    font-size: 13px;
+                }
+                .span-select-box {
+                    display: inline-flex;
+                    flex-direction: column;
+                    position: relative;
+                    min-width: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                    border: 0px;
+                    vertical-align: top;
+                }
+            }
+        }
+        .smart-mode-box {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .MuiBox-root {
+                display: flex;
+                align-items: center;
+            }
+            .q-label {
+                margin: 0px;
+                font-weight: 400;
+                line-height: 27px;
+                font-family: Montserrat, sans-serif;
+                color: rgb(134, 134, 160);
+                font-size: 13px;
+            }
+            .MuiSwitch-root {
+                .MuiSwitch-switchBase {
+                    color: rgb(224, 224, 224);
+                    &.Mui-checked {
+                        color: rgb(137, 101, 211);
+                        transform: translateX(16px);
+                        + .MuiSwitch-track {
+                            background-color: rgb(137, 101, 211);
+                        }
+                    }
+                }
+                .MuiSwitch-track {
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+.highcharts-credits {
+    display: none;
+}

@@ -1,0 +1,17 @@
+.default-snake-bar {
+    border-radius: 12px;
+    
+    .MuiSnackbarContent-root {
+        border-radius: 12px;
+        border: 1px solid red;
+    }
+    .MuiSnackbarContent-message {
+        font-size: 16px;
+    }
+    .MuiSnackbarContent-action {
+        svg {
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}

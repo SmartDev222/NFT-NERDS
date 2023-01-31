@@ -1,0 +1,167 @@
+@import "../../theme/global.scss";
+.customAlerts-item:hover {
+  background-color: $cardHoverColor;
+  cursor: pointer;
+}
+.customAlerts-item {
+  padding: 4px;
+  border-radius: 8px;
+  background-color: $cardBackgroundColor;
+  box-shadow: $cardBoxShadow;
+  color: #fff;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  .item-wrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .description {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+
+    .title {
+      margin: 0px;
+      line-height: 25px;
+      font-family: Montserrat, sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .id {
+      margin: 0px 0px 0px 8px;
+      font-weight: 400;
+      line-height: 25px;
+      font-family: Montserrat, sans-serif;
+      color: rgb(134, 134, 160);
+      font-size: 12px;
+    }
+    .rank {
+      margin: 0px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+      color: rgb(134, 134, 160);
+      font-size: 14px;
+      line-height: 1;
+    }
+    .symbol-add {
+      margin: 0px 4px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+      line-height: 1.57;
+    }
+    @media (min-width: 600px) {
+      .time {
+        font-size: 12px;
+      }
+    }
+    h6 {
+      display: block;
+      font-size: 0.67em;
+      margin-block-start: 2.33em;
+      margin-block-end: 2.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+    .time {
+      margin: 0px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+      line-height: 1;
+      color: rgb(134, 134, 160);
+    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+  .quantity {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  .btn-buy {
+    position: relative;
+    margin: 0px 0px 0px 8px;
+    appearance: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8125rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 24px;
+    white-space: nowrap;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    outline: 0px;
+    text-decoration: none;
+    padding: 0px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(76, 181, 93, 0.7);
+    color: rgb(76, 181, 93);
+    min-width: 100px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .label-buy {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+  }
+  .css-w0pj6f {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+  }
+  .css-6jpeea {
+    margin: 0px;
+    color: rgb(137, 101, 211);
+    text-decoration: underline rgba(137, 101, 211, 0.4);
+    padding-left: 8px;
+    line-height: 12px;
+  }
+  .css-lfh6tr {
+    margin: 0px;
+    color: rgb(137, 101, 211);
+    text-decoration: underline rgba(137, 101, 211, 0.4);
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 12px;
+  }
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

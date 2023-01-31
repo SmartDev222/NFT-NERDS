@@ -1,0 +1,426 @@
+.MuiModal-root {
+  &.detail-modal {
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+  }
+}
+
+.css-8ctru2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  width: 98%;
+  background-color: rgb(30, 30, 40);
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+  border-radius: 8px;
+  max-height: 95vh;
+  padding: 16px;
+}
+.css-hpgf8j {
+  padding: 8px;
+}
+.css-jj7qqp {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.css-33tmyr {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.MuiTypography-root {
+  &.css-5k5zt3 {
+    margin: 0px 0px 8px;
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.334;
+    font-weight: 600;
+  }
+  &.css-t4duvh {
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(134, 134, 160);
+    line-height: 19px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  &.css-1gn1w7n {
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &.css-1aatlje {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: Montserrat, sans-serif;
+  }
+}
+.MuiLink-root {
+  &.css-96wxre {
+    margin: 0px;
+    color: rgb(137, 101, 211);
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.css-70qvj9 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+
+  .filter-icon {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.25rem;
+    color: rgb(137, 101, 211);
+    margin-right: 4px;
+    cursor: pointer;
+  }
+}
+.css-1r10abh {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  max-width: 340px;
+}
+.css-1j6quqd {
+  min-width: 340px;
+  max-width: 340px;
+}
+.css-15ync0s {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  min-width: 0px;
+}
+.css-s6jlyw {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.css-19idom {
+  margin-bottom: 8px;
+}
+.MuiPaper-root {
+  &.css-1ro9fl1 {
+    background-color: rgb(30, 30, 40);
+    color: rgb(255, 255, 255);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px,
+      rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.07)
+    );
+    margin-bottom: 8px;
+  }
+  &.css-19thxtu {
+    background-color: rgb(30, 30, 40);
+    color: rgb(255, 255, 255);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px,
+      rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.07)
+    );
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px 32px;
+  }
+}
+.css-1l9fb58 {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  min-height: 150px;
+  width: 100%;
+  border: 1px solid rgb(68, 68, 78);
+  border-radius: 8px;
+  text-align: center;
+}
+.css-1naeo5n {
+  margin: 0px;
+  color: rgb(137, 101, 211);
+  text-decoration: underline rgba(137, 101, 211, 0.4);
+}
+.css-bz1jdg {
+  height: 54px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.css-5ax1kt {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.MuiTypography-root {
+  &.css-16tu5fr {
+    margin: 0px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    line-height: 2.66;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(137, 101, 211);
+  }
+  &.css-18el2b6 {
+    margin: 0px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    line-height: 2.66;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  &.css-7l96kh {
+    margin: 0px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: rgb(137, 101, 211);
+    font-size: 12px;
+    line-height: 1;
+  }
+  &.css-m0afzo {
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    color: rgb(134, 134, 160);
+  }
+  &.css-bt71rd {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+  }
+}
+.css-dga6ti {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: help;
+}
+.css-6jpeea {
+  margin: 0px;
+  color: rgb(137, 101, 211);
+  text-decoration: underline rgba(137, 101, 211, 0.4);
+  padding-left: 8px;
+  line-height: 12px;
+}
+.MuiButton-root {
+  &.css-d1ovzs {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 3px 9px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgba(76, 181, 93, 0.5);
+    color: rgb(76, 181, 93);
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+}
+.css-1dt1o3r {
+  border-radius: 8px;
+  border: 1px solid rgb(68, 68, 78);
+  overflow-y: auto;
+}
+.css-19midj6 {
+  padding: 16px;
+}
+.css-1ofqig9 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.MuiDivider-root {
+  &.css-gf37ch {
+    margin: 8px 0px;
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgb(68, 68, 78);
+  }
+  &.css-1c7zk4h {
+    margin: 8px 0px;
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.12);
+    width: 100%;
+    background-color: rgb(68, 68, 78);
+  }
+  &.css-1rpfmfj {
+    flex-shrink: 0;
+    border-width: 0px thin 0px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.12);
+    height: auto;
+    align-self: stretch;
+    margin: 0px 16px;
+    background-color: rgb(255, 255, 255);
+  }
+}
+.css-ej6s4n {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 4px;
+}
+.css-1t3oi0e {
+  display: flex;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.css-qe4sff {
+  cursor: help;
+}
+.css-1baulvz {
+  display: inline-block;
+}
+.css-4m3rxx {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 24px;
+}
+.css-3j0hen {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+.css-k008qs {
+  display: flex;
+}
+.css-1vbr399 {
+  cursor: help;
+  margin-right: 24px;
+}
+.css-qe4sff {
+  cursor: help;
+}
+.css-9v5n1a {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.css-3cyd2n {
+  margin-right: 24px;
+}
+.css-jipda8 {
+  margin-right: 0px;
+}
+.css-919eu4 {
+  position: fixed;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+  z-index: -1;
+}
+.MuiModal-root {
+  &.css-8ndowl {
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+  }
+}
+.MuiBackdrop-root {
+  &.css-919eu4 {
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,101 @@
+.connect_wallet {
+	.title {
+		margin: 0px 0px 48px !important;
+		text-align: center;
+	}
+	
+	.connectBtn {
+		appearance: none;
+		text-decoration: none;
+		font-family: Montserrat, sans-serif;
+		padding: 5px 24px !important;
+		border-radius: 8px !important;
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+		color: rgb(137, 101, 211) !important;
+		font-weight: 600 !important;
+		font-size: 16px !important;
+		border: 1px solid !important;
+		&.Mui-disabled {
+			color: rgba(255, 255, 255, 0.3) !important;
+		    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+		}
+	}
+	
+	.readme {
+		font-family: Montserrat, sans-serif;
+		font-size: 0.75rem !important;
+		line-height: 1.66 !important;
+	}
+	
+	.disclaimer {
+		color: rgb(137, 101, 211);
+		text-decoration: none;
+	}
+	
+	.terms {
+		svg {
+			color: white;
+		}
+	}
+
+	.tos {
+		color: rgb(137, 101, 211);
+		text-decoration: none;
+	}
+	
+	.back_home_btn {
+		margin: 0px;
+		color: rgb(134, 134, 160);
+		text-decoration: underline rgba(134, 134, 160, 0.4);
+		text-align: center;
+		font-size: 13px;
+		line-height: 2.66;
+		font-weight: 600;
+	}
+}
+
+.welcome_signin {
+	.welcome_signin_box {
+		display: flex;
+		flex-direction: column;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 100%;
+		h3 {
+			margin: 48px 0px 32px;
+			font-family: Montserrat, sans-serif;
+			font-weight: 400;
+			font-size: 3rem;
+			line-height: 1.167;
+		}
+		a {
+			display: inline-flex;
+			-webkit-box-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			justify-content: center;
+			position: relative;
+			box-sizing: border-box;
+			-webkit-tap-highlight-color: transparent;
+			background-color: transparent;
+			outline: 0px;
+			margin: 24px 0px 0px;
+			cursor: pointer;
+			user-select: none;
+			vertical-align: middle;
+			appearance: none;
+			text-decoration: none;
+			font-family: Montserrat, sans-serif;
+			line-height: 1.75;
+			text-transform: uppercase;
+			min-width: 64px;
+			transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+			color: rgb(137, 101, 211);
+			padding: 6.4px 24px;
+			font-weight: 600;
+			font-size: 16px;
+			border: 1px solid;
+			border-radius: 4px;
+		}
+	}
+}

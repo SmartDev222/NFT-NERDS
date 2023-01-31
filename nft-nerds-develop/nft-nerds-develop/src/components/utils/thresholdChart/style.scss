@@ -1,0 +1,164 @@
+.listing-chart-container {
+    position: relative;
+    .data-controls {
+        position: absolute;
+        top: 9px;
+        right: 24px;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        .span-control {
+            display: inline-flex;
+            flex-direction: column;
+            position: relative;
+            min-width: 0px;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            vertical-align: top;
+            width: 100%;
+            margin-right: 30px;
+            // &:last-child {
+            //     margin-right: 0px;
+            // }
+            .MuiBox-root {
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                span {
+                    margin: 0px 8px 0px 0px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    font-family: Montserrat, sans-serif;
+                    color: rgb(134, 134, 160);
+                    font-size: 13px;
+                }
+                .span-select-box {
+                    display: inline-flex;
+                    flex-direction: column;
+                    position: relative;
+                    min-width: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                    border: 0px;
+                    vertical-align: top;
+                }
+            }
+        }
+        .smart-mode-box {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .MuiBox-root {
+                display: flex;
+                align-items: center;
+            }
+            .q-label {
+                margin: 0px;
+                font-weight: 400;
+                line-height: 27px;
+                font-family: Montserrat, sans-serif;
+                color: rgb(134, 134, 160);
+                font-size: 13px;
+            }
+            .MuiSwitch-root {
+                .MuiSwitch-switchBase {
+                    color: rgb(224, 224, 224);
+                    &.Mui-checked {
+                        color: rgb(137, 101, 211);
+                        transform: translateX(16px);
+                        + .MuiSwitch-track {
+                            background-color: rgb(137, 101, 211);
+                        }
+                    }
+                }
+                .MuiSwitch-track {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .listing-chart-2-box{
+        position: relative;
+        .threshold {
+            position: absolute;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            top: 8px;
+            left: 18px;
+            z-index: 0;
+            .q-label{
+                margin: 0px 8px 0px 0px;
+                font-weight: 400;
+                line-height: 27px;
+                font-family: Montserrat, sans-serif;
+                color: rgb(134, 134, 160);
+                font-size: 13px;
+            }
+        }
+        .listing-chart-2-history{
+            position: absolute;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            top: 8px;
+            right: 18px;
+            z-index: 0;
+            .history-group{
+                display: inline-flex;
+                border-radius: 8px;
+                height: 26px; 
+            }
+            .listing-chart-btn{
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                position: relative;
+                box-sizing: border-box;
+                -webkit-tap-highlight-color: transparent;
+                background-color: transparent;
+                outline: 0px;
+                margin: 0px;
+                cursor: pointer;
+                user-select: none;
+                vertical-align: middle;
+                appearance: none;
+                text-decoration: none;
+                font-family: Montserrat, sans-serif;
+                font-weight: 500;
+                font-size: 0.8125rem;
+                line-height: 1.75;
+                text-transform: uppercase;
+                padding: 7px;
+                border: 1px solid rgba(255, 255, 255, 0.12);
+                color: rgb(255, 255, 255);
+                .threshold-icons{
+                    user-select: none;
+                    width: 1em;
+                    height: 1em;
+                    display: inline-block;
+                    fill: currentcolor;
+                    flex-shrink: 0;
+                    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    font-size: 16px;
+                }
+            }
+        }
+        .listing-chart-2{
+            padding-top: 48px;
+            .listing-chart-2-box{
+                position: relative;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+.highcharts-credits {
+    display: none;
+}

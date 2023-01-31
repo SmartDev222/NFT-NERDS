@@ -1,0 +1,134 @@
+.trending_container {
+    padding-bottom: 160px;
+    .sub_header{
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+    }
+    .sub_title{
+        margin: 0px 0px 8px;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.334;
+    }
+    .sub_title_context{
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        font-family: Montserrat, sans-serif;
+        color: rgb(134, 134, 160);
+    }
+    .discord_link{
+        margin: 0px;
+        color: rgb(137, 101, 211);
+        text-decoration: underline rgba(137, 101, 211, 0.4);
+    }
+    .btn_group_container{
+        padding-top: 7px;
+    }
+    .btn_group{
+        display: inline-flex;
+        border-radius: 8px;
+    }
+    .btn{
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 0.8125rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        border-radius: 8px;
+        padding: 7px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        color: rgb(255, 255, 255);
+
+    }
+    .css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type){
+
+    }
+    
+    .btn-selected {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 0.8125rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        border-radius: 8px;
+        padding: 7px;
+        border: 1px solid rgb(137, 101, 211);
+        border-right-color: rgb(137, 101, 211) !important;
+        color: rgb(137, 101, 211);
+    }
+
+    .css-1k23hlb-MuiButtonBase-root-MuiButton-root:hover{
+        text-decoration: none;
+        background-color: rgba(25, 118, 210, 0.04);
+        border: 1px solid rgb(137, 101, 211);
+    }
+    .css-1k23hlb-MuiButtonBase-root-MuiButton-root:focus{
+        border-right-color: rgb(137, 101, 211);
+    }
+    .table_paper{
+        background-color: rgb(30, 30, 40);
+        color: rgb(255, 255, 255);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-radius: 8px;
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        width: 100%;
+        overflow-x: auto; 
+    }
+    .data_table{
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0px;
+        min-width: 650px; 
+        
+    }
+    .data_table >.tr{
+        color: inherit;
+        display: table-row;
+        vertical-align: middle;
+        outline: 0px;
+        background-color: rgb(30, 30, 40);
+
+    }
+}

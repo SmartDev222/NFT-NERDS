@@ -1,0 +1,133 @@
+.top-header-box {
+    .top-header-box-in {
+        position: fixed;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        min-height: 64px;
+        top: 0px;
+        z-index: 1100;
+        width: 100%;
+        background-color: rgb(137, 101, 211);
+        padding: 8px 16px;
+
+        .top-header-title{
+            margin: 0px;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: Montserrat, sans-serif;
+            line-height: 2.66;
+            text-transform: uppercase;
+        }
+        .top-header-btns{
+            display: flex;
+            flex-direction: row;
+            
+            .get-1month-btn-box{
+                margin-right: 8px;
+                margin-bottom: 0px;  
+                
+                .get-1month-btn{
+                    display: inline-flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    position: relative;
+                    box-sizing: border-box;
+                    -webkit-tap-highlight-color: transparent;
+                    outline: 0px;
+                    margin: 0px;
+                    cursor: pointer;
+                    user-select: none;
+                    vertical-align: middle;
+                    appearance: none;
+                    text-decoration: none;
+                    font-family: Montserrat, sans-serif;
+                    line-height: 1.75;
+                    text-transform: uppercase;
+                    min-width: 64px;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(137, 101, 211);
+                    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+                    border: 0px solid;
+                    padding: 8px 16px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    border-radius: 4px; 
+                }
+                
+            }
+            .get-6month-btn{
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                position: relative;
+                box-sizing: border-box;
+                -webkit-tap-highlight-color: transparent;
+                outline: 0px;
+                margin: 0px;
+                cursor: pointer;
+                user-select: none;
+                vertical-align: middle;
+                appearance: none;
+                text-decoration: none;
+                font-family: Montserrat, sans-serif;
+                line-height: 1.75;
+                text-transform: uppercase;
+                min-width: 64px;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                color: rgb(255, 255, 255);
+                background-color: rgb(137, 101, 211);
+                box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+                border: 0px solid;
+                padding: 8px 16px;
+                font-size: 12px;
+                font-weight: 600;
+                border-radius: 4px;
+                
+            }
+            .get-month-span{
+                overflow: hidden;
+                pointer-events: none;
+                position: absolute;
+                z-index: 0;
+                inset: 0px;
+                border-radius: inherit; 
+            }
+        }
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px)
+{
+    .top-header-box {
+        margin-top: 64px;   
+    }
+}
+@media (min-width: 600px)
+{
+    .top-header-box {
+        margin-top: 64px;
+    }
+}
+@media (min-width: 0px)
+{
+    .top-header-box {
+        margin-top: 56px;
+    }
+}

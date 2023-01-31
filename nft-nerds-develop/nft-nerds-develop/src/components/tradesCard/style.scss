@@ -1,0 +1,142 @@
+.trades-item:hover {
+    background-color: rgb(44, 44, 58);
+    cursor: pointer;
+}
+.trades-item {
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgb(30, 30, 40);
+
+    .item-wrapper {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+    .content {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .description {
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        
+        .title {
+            margin: 0px;
+            line-height: 25px;
+            font-family: Montserrat, sans-serif;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .id {
+            margin: 0px 0px 0px 8px;
+            font-weight: 400;
+            line-height: 25px;
+            font-family: Montserrat, sans-serif;
+            color: rgb(134, 134, 160);
+            font-size: 12px;
+        }
+        .rank {
+            margin: 0px;
+            font-weight: 400;
+            font-family: Montserrat, sans-serif;
+            color: rgb(134, 134, 160);
+            font-size: 14px;
+            line-height: 1;
+        }
+        .symbol-add {
+            margin: 0px 4px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Montserrat, sans-serif;
+            line-height: 1.57;
+        }
+        @media (min-width: 600px) {
+            .time {
+                font-size: 12px;
+            }
+        }
+        h6 {
+            display: block;
+            font-size: 0.67em;
+            margin-block-start: 2.33em;
+            margin-block-end: 2.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        .time {
+            margin: 0px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Montserrat, sans-serif;
+            line-height: 1;
+            color: rgb(134, 134, 160);
+        }
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    }
+    
+    .quantity {
+        margin: 0px;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: Montserrat, sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    .btn-buy {
+        margin: 0px;
+        font-weight: 400;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.57;
+        color: rgb(134, 134, 160);
+        font-size: 12px;
+    }
+    .label-buy {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-left: 8px;
+        padding-right: 8px;
+        white-space: nowrap;
+    }
+    .css-w0pj6f {
+        overflow: hidden;
+        pointer-events: none;
+        position: absolute;
+        z-index: 0;
+        inset: 0px;
+        border-radius: inherit;
+    }
+    .css-6jpeea {
+        margin: 0px;
+        color: rgb(137, 101, 211);
+        text-decoration: underline rgba(137, 101, 211, 0.4);
+        padding-left: 8px;
+        line-height: 12px;
+    }
+    .css-lfh6tr {
+        margin: 0px;
+        color: rgb(137, 101, 211);
+        text-decoration: underline rgba(137, 101, 211, 0.4);
+        padding-left: 8px;
+        padding-right: 8px;
+        line-height: 12px;
+    }
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

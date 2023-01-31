@@ -1,0 +1,100 @@
+.one-item {
+    width: 215px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(30, 30, 40);
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    .item-image {
+        width: 199px;
+        height: 199px;
+    }
+    .item-rank {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        width: 199px;
+        .item-num {
+            margin: 0px;
+            font-weight: 600;
+            font-family: Montserrat, sans-serif;
+            text-transform: uppercase;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            line-height: 2;
+        }
+        .rank-box {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            .rank-num {
+                margin: 0px;
+                font-weight: 400;
+                line-height: 25px;
+                font-family: Montserrat, sans-serif;
+                color: rgb(134, 134, 160);
+                font-size: 14px;
+            }
+        }
+    }
+    .item-owner {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        width: 199px;
+        .owner {
+            margin: 0px;
+            font-weight: 400;
+            font-family: Montserrat, sans-serif;
+            font-size: 13px;
+            line-height: 1.2;
+            color: rgb(134, 134, 160);
+        }
+        .owner-name {
+            margin: 0px;
+            font-family: Montserrat, sans-serif;
+            font-size: 13px;
+            line-height: 1.2;
+            font-weight: 600;
+            color: rgb(137, 101, 211);
+            padding-left: 4px;
+            cursor: pointer;
+        }
+    }
+    .item-blank {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 199px;
+        height: 60px;
+    }
+    .item-link {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 199px;
+        .item-box {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            .link {
+                margin: 0px;
+                color: rgb(137, 101, 211);
+                text-decoration: underline rgba(137, 101, 211, 0.4);
+                line-height: 12px;
+            }
+        }
+    }
+}

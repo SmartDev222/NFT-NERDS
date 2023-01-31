@@ -1,0 +1,87 @@
+@import '../../../theme/global.scss';
+
+.collection-table-container {
+    .table-header {
+        background-color: $tableHeaderColor;
+        th {
+            border-bottom: 1px solid rgb(44, 44, 58);
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 600;
+            color: rgb(134, 134, 160);
+        }
+        .sort-header {
+            cursor: pointer;
+            .MuiBox-root {
+                display: flex;
+                justify-content: flex-end;
+                color: rgb(255, 255, 255);
+            }
+        }
+        .un-sort-header {
+            cursor: pointer;
+            .MuiBox-root {
+                display: flex;
+                justify-content: flex-end;
+                font-weight: 100;
+            }
+        }
+    }
+    .table-body {
+        tr {
+            outline: 0px;
+            background-color: $tableBodyRowColor;
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(44, 44, 58);
+            }
+        }
+        th, td {
+            color: rgb(255, 255, 255);
+            border-bottom: 1px solid rgb(44, 44, 58);
+            padding: 0px;
+            a {
+                padding: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                text-decoration: inherit;
+                color: inherit;
+                width: 100%;
+                .MuiBox-root {
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    img {
+                        border-radius: 50%;
+                        max-width: 40px;
+                        max-height: 40px;
+                        margin-right: 5px;
+                    }
+                    span {
+                        font-size: 15px;
+                        padding-right: 4px;
+                    }
+                }
+            }
+        }
+        th {
+            a {
+                justify-content: flex-start;
+            }
+        }
+    }
+}
+
+.custom-tooltip {
+    color:#F0F0F0;
+    font-size:12px;
+    fill:#F0F0F0;
+    background-color: black;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid rgb(137, 101, 211);
+    p {
+        margin-bottom: 0px;
+    }
+}
